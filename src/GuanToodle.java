@@ -73,6 +73,10 @@ public class GuanToodle
 		
 		while(userInput != 7)
 		{
+			System.out.printf("1) Enter new task\n2) List incomplete tasks\n"
+					+ "3) List incomplete tasks of a priority level\n4) List all tasks\n"
+					+ "5) Mark a task as complete\n6) Mark a task as cancelled\n"
+					+ "7) Quit\n");
 			System.out.print("Please enter a command (1-7): ");
 			userInput = IN.nextInt();
 			IN.nextLine();
